@@ -1,2 +1,6 @@
 #!/bin/bash
-ls -l
+ans=$(git status)
+for word in $ans
+do
+    echo $word
+done
